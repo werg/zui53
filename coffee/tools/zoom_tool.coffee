@@ -1,5 +1,3 @@
-#= require ./toolset
-
 namespace 'ZUI53.Tools', (exports)->
   class exports.Zoom extends exports.Base
     constructor: (zui)->

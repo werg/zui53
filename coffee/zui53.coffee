@@ -1,9 +1,3 @@
-#= require ./helper
-#= require ./tools/pan_tool
-#= require ./tools/zoom_tool
-#= require ./surfaces/svg_surface
-#= require ./surfaces/css_surface
-
 namespace 'ZUI53', (exports)->
   class exports.Viewport
     constructor: (vp)->
@@ -252,6 +246,3 @@ namespace 'ZUI53', (exports)->
       scale = (Number) v[2]
       @setPanAndScale(panX, panY, scale)
       @updateSurface()
-    
-    
-    
